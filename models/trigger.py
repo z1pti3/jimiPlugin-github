@@ -6,6 +6,7 @@ class _githubTriggerLatestCommitPoll(jimi.trigger._trigger):
     schedule = "300-900s"
     owner = str()
     repo = str()
+    lastestCommit = str()
 
     def doCheck(self):
         try:
